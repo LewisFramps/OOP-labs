@@ -22,11 +22,11 @@ public class Dalek2 {
 	}
 	
 	public void setSayings(String[] phrases) {
-		sayings = phrases;
+		this.sayings = phrases;
 	}
 	
 	public void speak() {
-		System.out.println(this.sayings[Math.random() * ]);
+		System.out.println(this.sayings[(int)(Math.random() * ((sayings.length)))]);
 	}
 
 }

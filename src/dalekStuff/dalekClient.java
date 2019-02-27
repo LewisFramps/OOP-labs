@@ -16,7 +16,13 @@ public class dalekClient {
 		String[] u1 = { "Exterminate, Exterminate!", "I obey!","Exterminate, annihilate, DESTROY!", "You cannot escape.",  "Daleks do not feel fear.", "The Daleks must survive!" };
 		String[] u2 = { "I obey!" };
 		
+		d1.setSayings(u1);
+		d2.setSayings(u2);
 		
+		for(int i = 0; i < 100; i++) {
+			d1.speak();
+			//d2.speak();
+		}
 	}
 
 }
